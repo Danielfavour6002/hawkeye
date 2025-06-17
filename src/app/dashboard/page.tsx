@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useEffect, useState, useMemo } from 'react';
@@ -15,6 +16,7 @@ import { generateMultipleAlerts, generateMultipleTrafficLogs, getMockIntrusionDa
 import { Activity, AlertOctagon, BarChart3, ListFilter, FileText } from 'lucide-react';
 import Link from 'next/link';
 import { Skeleton } from '@/components/ui/skeleton';
+import { cn } from '@/lib/utils';
 
 export default function DashboardPage() {
   const [alerts, setAlerts] = useState<Alert[]>([]);
