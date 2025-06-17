@@ -1,4 +1,4 @@
-# Firebase Studio
+# HAWKEYE
 
 security and anomaly detector for your website.
 
